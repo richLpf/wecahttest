@@ -23,7 +23,7 @@ Page({
         titleImg:'../imgs/car.png',
         title:'个人车辆质押GRCL00331项目',
         payStyle:'按月付息/到期还本',
-        income:'12%',
+        income:'10%',
         totleMoney:'500,000元',
         projectTime:'2个月',
         readyPic:'../imgs/ready.png',
