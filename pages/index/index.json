@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "blue",
+    "navigationBarTitleText": "蜂融网",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+}

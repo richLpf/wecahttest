@@ -1,0 +1,20 @@
+<view class="moreBox">
+    <view class="more_content" wx:for="{{moreQuestion}}">
+            <navigator url="{{item.morepage1}}" class="more_top">
+                <image src="{{item.morePicL}}" style="width:20px; height:18px;" class="more_pic1"></image>
+                <view class="more_words">
+                    <view>{{item.titTop}}</view>
+                    <image src="{{guideRight}}" style="width:12px; height:14px;" class="more_pic2"></image>
+                </view>
+            </navigator>
+            <navigator url="{{item.morepage2}}" class="more_bottom">
+                <image src="{{item.moreWordsL}}" style="width:20px; height:18px;" class="more_pic1"></image>
+                <view class="more_words addLine">
+                    <view>{{item.titBottom}}</view>
+                    <image src="{{guideRight}}" style="width:12px; height:14px;" class="more_pic2"></image>
+                </view>
+            </navigator>
+    </view>
+</view>
+
+

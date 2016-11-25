@@ -1,0 +1,62 @@
+/* pages/user/register.wxss */
+.style{
+    color:#ccc;
+    font-size:14px;
+}
+.userList{
+    padding:15px 0;
+    border-bottom:1px solid #ccc;
+}
+.userinfo{
+    padding:30px; 
+    padding-top:15px;
+}
+.inptCode{
+    height:22px;
+}
+.inptCode input{
+    width:70%;
+    float:left;
+    border-right:1px solid #ccc;
+}
+.inptCode image{
+    width:30%;
+    float:right;
+}
+.loginPass{
+   height:22px;
+}
+.loginPass input{
+    width:70%;
+    float:left;
+}
+.loginPass image{
+    width:30%;
+    float:right;
+}
+.registerBtn button{
+    width:80%;
+    background:#2875bc;
+    color:#fff;
+    font-size:14px;
+    margin-bottom:14px;
+}
+.agreeRule{
+    padding:0 10px;
+    font-size:12px;
+    padding-left:36px;
+}
+.agreeRule image{
+    float:left;
+    padding-right:6px;
+}
+.read{
+    float:left;
+}
+.frwRule{
+    float:left;
+    color:#387fc1;
+}
+.loginPass image{
+    margin-top:8px;
+}

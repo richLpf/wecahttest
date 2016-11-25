@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2875bd",
+    "navigationBarTitleText": "登陆",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+}

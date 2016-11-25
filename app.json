@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/noticeInfo",
+    "pages/investment/invest",
+    "pages/account/account",
+    "pages/more/more",
+
+    "pages/projects/project1",
+    "pages/projects/project2",
+    "pages/projects/project3",
+    "pages/projects/project4",
+
+    "pages/moreSonPages/more1",
+    "pages/moreSonPages/more2",
+    "pages/moreSonPages/more3",
+    "pages/moreSonPages/more4",
+
+    "pages/user/register",
+    "pages/user/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2875bd",
+    "navigationBarTitleText": "蜂融网",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":false
+  },
+    "tabBar": {
+      "list": [{
+        "pagePath":"pages/index/index",
+        "text": "首页",
+        "iconPath":"pages/imgs/home.png",
+        "selectedIconPath":"pages/imgs/home1.png"
+      }, {
+        "pagePath": "pages/investment/invest",
+        "text": "投资理财",
+        "iconPath":"pages/imgs/invest.png",
+        "selectedIconPath":"pages/imgs/invest1.png"
+      }, {
+        "pagePath": "pages/account/account",
+        "text": "我的账户",
+        "iconPath":"pages/imgs/account.png",
+        "selectedIconPath":"pages/imgs/account1.png"
+      }, {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath":"pages/imgs/more.png",
+        "selectedIconPath":"pages/imgs/more1.png"
+      }],
+      "selectedColor":"blue",
+      "borderStyle":"white",
+      "backgroundColor":"#fff",
+      "position":"bottom"
+    }
+}

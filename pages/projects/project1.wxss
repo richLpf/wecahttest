@@ -1,0 +1,86 @@
+.project1{
+    background:#f8f8f8;
+    font-family: "微软雅黑";
+}
+.backMoney{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    border-radius:0px;
+}
+.projectTit{
+    display:flex;
+    justify-content: center;
+    color:#fff;
+    background:blue;
+}
+.projectTit image{
+    padding-top:30px;
+}
+.projectL{
+    text-align: center;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.projectR{
+    text-align:center;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.projectRemain{
+    background:#fff;
+    height:46px;
+    padding:10px 6px;
+    font-size:14px;
+    margin-bottom:10px;
+}
+.remianL{
+    float:left;
+}
+.remainR{
+    float:right;
+}
+.remain{
+    color:red;
+}
+.detail{
+    background:#fff;
+}
+.detailList{
+    border-top:1px solid #ccc;
+    padding:10px 8px;
+    font-size:14px;
+    height:20px;
+}
+.detailTit{
+    padding:10px 5px;
+    font-size:14px;
+}
+.productDetail{
+    margin-top:10px;
+}
+.detailListL{
+    float:left;
+}
+.detailListR{
+    float:right;
+}
+.productDetail{
+    background:#fff;
+    margin-bottom:60px;
+}
+
+.title{
+    display:-webkit-box;
+    display:box;
+   
+}
+.title view{
+     -webkit-box-flex: 1;
+     text-align:center;
+     padding:10px 0;
+     color:#ccc; 
+     font-size:14px;
+}

@@ -1,0 +1,34 @@
+<!--pages/user/register.wxml-->
+<view class="register">
+    <view class="userinfo">
+        <view class="userList">
+            <input placeholder="请填写用户名" bindinput="listernerUser" maxlength="8" placeholder-class="style"/>
+        </view>
+        <view class="userList">
+            <input placeholder="请输入手机号" bindinput="listernerPhone" placeholder-class="style"/>
+            </view>
+        <view class="userList inptCode">
+            <input placeholder="请填写图形验证码" bindinput="listernerPic" placeholder-class="style"/>
+            <image src="{{picCode}}" style="width:56px;height:26px;" bindtap="changePic"></image>
+        </view>
+        <view class="userList inptCode">
+            <input placeholder="请填写短信验证码" bindinput="listernerInfo" placeholder-class="style"/>
+            <image src="{{infoCode}}" style="width:64px;height:31px;" bindtap="changeInfo"></image>
+        </view>
+        <view class="userList loginPass">
+            <input placeholder="请填写登陆密码" bindinput="listernerPass" placeholder-class="style"/>
+            <image src="{{seeCode}}" style="width:24px;height:12px;"bindtap="lookPass"></image>
+        </view>
+        <view class="userList">
+            <input placeholder="请填写推荐码（选填）" placeholder-class="style"/>
+        </view>
+    </view>
+    <view class="registerBtn">
+        <button bindtap="toRegister">注册</button>
+    </view>    
+    <view class="agreeRule">
+            <image src="{{agree}}" style="width:16px;height:16px;" bindtap="status"></image>
+            <view class="read">我已阅读并同意</view>
+            <view class="frwRule">《蜂融网注册服务协议》</view>
+    </view>
+</view>

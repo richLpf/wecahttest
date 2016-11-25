@@ -1,0 +1,43 @@
+<view class="investBox">
+    <view class="invest_top">
+        <view class="invest_first" bindtap="changeListL">
+            <image src="{{invest_pic1}}" style="width:26px;height:24px;"></image>
+            <text>\n散标投资</text>
+        </view>
+        <image class="cutLine" src="{{cutLine}}" style="width:2px;height:25px;"></image>
+        <view class="invest_second" bindtap="changeListR">
+            <image src="{{invest_pic2}}" style="width:26px;height:24px;"></image>
+            <text>\n债券转让</text>
+        </view>
+    </view>
+<!--**********************************投资页面列表***********************************-->
+    <scroll-view class="scrollList" scroll-y="true" style="height: 400px;">
+        <navigator url="{{item.project1}}" class="index_list" wx:for="{{indexList}}">
+            <view class="index_listTit">
+            <image src="{{item.titleImg}}" style="width:14px;height:14px;" class="indexList_pic1"></image>
+            <view class="indexList_tit1">{{item.title}}</view>
+            <view class="indexList_pay">
+                <image class="indexList_pic2" style="width:14px;height:14px;" src="{{indexDotted}}"></image>
+                <view class="indexList_paystyle">{{item.payStyle}}</view>
+            </view>
+            </view>
+            <view class="index_listcontent">
+            <view>
+                <text class="income">{{item.income}}\n</text>
+                <text class="indexFont_bottom">{{item.expect}}</text>
+            </view>
+            <view class="index_project">
+                <text class="index_font">{{item.totleMoney}}\n</text>
+                <text class="indexFont_bottom">{{item.startPrice}}</text>
+            </view>
+            <view class="index_project">
+                <text class="index_font">{{item.projectTime}}\n</text>
+                <text class="indexFont_bottom">{{item.endPrice}}</text>
+            </view>
+            <view>
+                <image style="width:49px; height:49px;" src="{{item.readyPic}}"></image>
+            </view>
+            </view>
+        </navigator>
+    </scroll-view>
+</view>

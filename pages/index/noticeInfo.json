@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "blue",
+    "navigationBarTitleText": "公告中心",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+}

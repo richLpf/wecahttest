@@ -1,0 +1,8 @@
+<view class="notice_title">
+    <view class="noticeWeb">网站公告</view>
+    <view class="backMoney">还款公告</view>
+    <view class="mediaShow">媒体报道</view>
+</view>
+<scroll-view scroll-y="true" style="height: 200px;">
+  
+</scroll-view>

@@ -1,0 +1,26 @@
+<!--pages/user/login.wxml-->
+<view class="login">
+    <view class="title">
+        <image src="../imgs/frwlogo.png" style="width:59px; height:57px;"></image>
+        <image src="../imgs/frwWord.png" style="width:88px; height:38px;"></image>
+    </view>
+
+    <view class="userName">
+        <input placeholder-style="color:#80c1fd;font-size:14px;" maxlength="20" bindinput="listernerUser" placeholder="请输入用户名/手机号" auto-focus/>
+    </view>
+    <view class="userRule">{{userRule}}</view>
+
+    <view class="password">
+        <input placeholder-style="color:#80c1fd;font-size:14px;" bindinput="listernerPass" placeholder="请输入密码" />
+    </view>
+    <view class="userRule">{{passRule}}</view>
+
+    <button class="loginBtn" bindtap="goLogin">登陆</button>
+
+    <view class="forgetPass">忘记密码</view>
+
+    <view class="goTopUp">
+        <view class="noAccount">还没有账号？现在去</view>
+        <navigator url="register" class="freeRegister">免费注册</navigator>
+    </view>
+</view>

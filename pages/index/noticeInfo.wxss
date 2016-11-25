@@ -1,0 +1,22 @@
+.notice_title{
+    justify-content:center;
+    display:flex;
+    border-radius:5px;
+    width:200px;
+    margin:8px auto;
+    height:20px;
+}
+.noticeWeb{
+    border:1px solid blue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.backMoney{
+    border-top:1px solid blue;
+    border-bottom:1px solid blue;
+}
+.mediaShow{
+    border:1px solid blue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

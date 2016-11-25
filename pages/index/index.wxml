@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<!--------------------------轮播图----------------------->
+<view class="indexBox">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="{{wiper_mode}}" bindtap="currentImg" style="width:100%; height:100%;"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!--------------------------公告栏----------------------->
+  <view class="notice">
+    <image style="width:13px; height:14px;" src="../imgs/notice.png" mode="{{mode}}" class="notice_pic"></image>
+    <view class="notice_word">【公告】</view>
+    <navigator url="noticeInfo" class="notice_info">{{notice_info}}</navigator >
+  </view>
+  <!--------------------------优质投资----------------------->
+  <view class="index_invest">
+    <view class="index_register">
+      <view class="index_registerLeft">
+        <view class="newuser">
+          <text class="inPorc">独享</text><text class="inProc_right">-新用户的百元现金</text>
+        </view>
+        <view class="newuser_register">
+          <view>专享红包 注册即领取</view>
+          <button size="{{primarySize}}" plain="{{plain}}">立即注册</button>
+        </view>
+      </view>
+      <view class="index_registerRight">
+        <image src="{{gift}}" style="width:68px; height:74px;"></image>
+      </view>
+    </view>
+
+    <view class="index_investTit">
+        <image src="{{invest_pic1}}" style="width:21px; height:26px;"></image>
+        <view>优质投资</view>
+    </view>
+
+    <scroll-view scroll-y="true" style="height: 200px;">
+      <navigator url="{{item.project1}}" class="index_list" wx:for="{{indexList}}">
+        <view class="index_listTit">
+          <image src="{{item.titleImg}}" style="width:14px;height:14px;" class="indexList_pic1"></image>
+          <view class="indexList_tit1">{{item.title}}</view>
+          <view class="indexList_pay">
+            <image class="indexList_pic2" style="width:14px;height:14px;" src="{{indexDotted}}"></image>
+            <view class="indexList_paystyle">{{item.payStyle}}</view>
+          </view>
+        </view>
+        <view class="index_listcontent">
+          <view>
+            <text class="income">{{item.income}}\n</text>
+            <text class="indexFont_bottom">预期年化</text>
+          </view>
+          <view class="index_project">
+            <text class="index_font">{{item.totleMoney}}\n</text>
+            <text class="indexFont_bottom">项目规模</text>
+          </view>
+          <view class="index_project">
+              <text class="index_font">{{item.projectTime}}\n</text>
+              <text class="indexFont_bottom">项目时间</text>
+          </view>
+          <view>
+              <image style="width:49px; height:49px;" src="{{item.readyPic}}"></image>
+          </view>
+        </view>
+      </navigator>
+    </scroll-view>
+
+  </view>
+</view>

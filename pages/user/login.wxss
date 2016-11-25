@@ -1,0 +1,59 @@
+/* pages/user/login.wxss */
+page{
+    height:100%;
+}
+.login{
+    height:100%;
+    background:#2875bd;
+    font-family:"微软雅黑";
+}
+.title{
+    padding:30px 20px;
+}
+.title image{
+    display:block;
+    margin:0 auto;
+    padding:5px 0;
+}
+.userName{
+    border-bottom:1px solid #fff;
+    padding:10px 0;
+    margin:0 30px;
+}
+.userRule{
+    margin-left:30px;
+    color:#fff;
+    font-size:12px;
+}
+.password{
+    border-bottom:1px solid #fff;
+    padding:10px 0;
+    margin:0 30px;
+    
+}
+.loginBtn{
+    width:80%;
+    background:#84c4ff;
+    color:#fff;
+    margin-top:30px;
+}
+.forgetPass{
+    text-align:center;
+    margin-top:10px;
+    font-size:14px;
+    color:#80c1fd;
+}
+.goTopUp{
+    margin:0 auto;
+    font-size:14px;
+    margin-top:40px;
+    color:#80c1fd;
+    width:60%;
+}
+.noAccount{
+    float:left;
+}
+.freeRegister{
+    color:#fff;
+    float:left;
+}

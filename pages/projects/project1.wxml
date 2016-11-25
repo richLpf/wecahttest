@@ -1,0 +1,55 @@
+<view class="project1">
+    <view class="projectTit">
+        <view class='projectL'>
+            <text>预期年化\n</text>
+            <text>12%</text>
+        </view> 
+        <image src="{{line}}" style="width:2px;height:35px;"></image>
+        <view class='projectR'>
+            <text>项目期限\n</text>
+            <text>1个月</text>
+        </view> 
+    </view>
+    <view class="projectRemain">
+        <view class="remianL">
+            <text>可投余额</text><text>/项目规模\n</text>
+            <text class="remain">0元</text><text>/</text><text>400,000元</text>
+        </view>
+        <image class="remainR" src="{{backMoney}}" style="width:49px;height:48px;"></image>
+    </view>
+    <view class="detail">
+        <view class="detailTit">
+            <image src="{{projectStyle}}" style="width:14px;height:14px;"></image>
+            <text>{{title}}</text>
+        </view>
+        <view class="detailList">
+            <text class="detailListL">项目编号：</text>
+            <text class="detailListR">{{projectNum}}</text>
+        </view>
+        <view class="detailList">
+            <text class="detailListL">项目时间：</text>
+            <text class="detailListR">{{projectTime}}</text>
+        </view>
+        <view class="detailList">
+            <text class="detailListL">还款方式：</text>
+            <text class="detailListR">{{backStyleMoney}}</text>        
+        </view>
+    </view>
+    <view class="productDetail">
+        <view class="title">
+            <view class="titleFirst" style="{{titleFirst}}" bindtap='projectIntro'>项目介绍</view>
+            <view class="titleSecond" style="{{titleSecond}}" bindtap='projectDetail'>项目资料</view>
+            <view class="titleThird" style="{{titleThird}}" bindtap='projectList'>资产列表</view>
+        </view>
+        <view class="table" wx:if="{{table==1}}">
+            <view>项目描述</view>
+        </view>
+        <view class="table" wx:if="{{table==2}}">
+            <view>项目资料</view>
+        </view>
+        <view class="table" wx:if="{{table==3}}">
+            <view>投资列表</view>        
+        </view>        
+    </view>
+    <button class="backMoney" type="primary" size="default">还款</button>
+</view>

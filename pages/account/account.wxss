@@ -1,0 +1,155 @@
+.accountBox{
+    background:#f8f8f8;
+}
+.account_top{
+    height:287px;
+    border-bottom:1px solid #ccc;
+    background:#2875bc;
+}
+.account_info{
+    width:100%;
+    height:30px;
+    padding-bottom:10px;
+}
+.account_info text{
+    color:#fff;
+    float:left;
+    padding:10px;
+}
+.account_pic1{
+    padding:10px;
+    padding-right:0;
+    float:left;
+}
+.account_pic2{
+    float:right;
+    padding:10px;
+}
+.account_totle{
+    height:80px;
+    width:100px;
+    text-align:center;
+    margin:0 auto;
+    color:#fff;
+    font-size:28px;
+    font-family: "微软雅黑";
+    padding-bottom:10px;
+}
+.account_totleM{
+    font-size:14px;
+}
+.account_income{
+    width:100%;
+    height:60px;
+    background:#699fd0;
+    display:flex;
+    justify-content: center;
+    padding:10px 0;
+    color:#fff;
+    
+}
+.account_income view{
+    text-align:center;
+    height:40px;
+    font-family: "微软雅黑";
+    width:140px;
+}
+.accountfont{
+    font-size:14px;
+    font-family: "微软雅黑";
+}
+.account_remainL{
+    border-right:1px solid #fff;
+    font-family: "微软雅黑";
+}
+.account_remainR{
+    padding-left:28px;
+    padding:6px;
+    font-family: "微软雅黑";
+    
+}
+.topUp{
+    margin-right:8px;
+    color:#fff;
+    background:#f4bb12;
+    border:none;
+}
+.accountWithdraw{
+    margin-right:8px;
+    color:#fff;
+    background:#ec5d3d;
+    border:none;
+}
+
+.account_remain{
+    width:100%;
+    height:46px;
+    background:#fff;
+    padding:16px 5px;
+}
+.account_remainL{
+    float:left;
+    padding:4px;
+}
+.remainM{
+    padding-left:5px;
+    color:#ec5d3d;
+}
+
+
+.account_remainR{
+    float:right;
+}
+
+/**----------------------------账户信息列表---------------------------**/
+.more_content{
+    width:100%;
+    height:72px;
+    margin-top:10px;
+    background:#fff;
+}
+.more_pic1{
+    width:20%;
+    float:left;
+    padding:8px;
+    padding-top:10px;
+}
+.more_pic2{
+    float:right;
+    padding:8px;
+    width:9%;
+}
+.more_words view{
+    float:left;
+    padding:8px 0;
+}
+
+.more_top{
+    height:36px;
+}
+.more_bottom{
+    height:36px;
+    
+}
+.addLine{
+    border-top:1px solid #ccc;
+}
+.more_words{
+    width:88%;
+    float:left;
+}
+.accountSafe{
+    margin-top:10px;
+    margin-bottom:10px;
+    height:36px;
+    background:#fff;
+}
+.level{
+    float:right;
+    padding-top:8px;
+    font-size:14px;
+}
+.account_bottom{
+    font-size:16px;
+    font-family: "微软雅黑";
+}

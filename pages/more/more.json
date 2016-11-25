@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "blue",
+    "navigationBarTitleText": "更多",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+}

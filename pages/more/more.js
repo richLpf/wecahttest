@@ -1,0 +1,23 @@
+Page({
+    data:{
+        moreQuestion:[
+            {
+                morePicL:"../imgs/reset.png",
+                titTop:"常见问题",
+                morepage1:'../moreSonPages/more1',
+                moreWordsL:"../imgs/star.png",
+                titBottom:"新手指引",
+                morepage2:'../moreSonPages/more2',
+            },
+            {
+                morePicL:"../imgs/aboutUs.png",
+                titTop:"关于我们",
+                morepage1:'../moreSonPages/more3',
+                moreWordsL:"../imgs/star.png",
+                titBottom:"意见反馈",
+                morepage2:'../moreSonPages/more4',
+            }
+        ],
+        guideRight:"../imgs/right.png"
+    }
+})

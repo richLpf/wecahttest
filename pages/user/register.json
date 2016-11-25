@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2875bd",
+    "navigationBarTitleText": "注册",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+}

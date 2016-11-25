@@ -1,0 +1,62 @@
+<view class="accountBox">
+<!--------------------------账户信息----------------------->
+    <view class="account_top">
+        <view class="account_info">
+            <image src="{{people}}" style="width:20px; height:18px;" class="account_pic1"></image>
+            <text>{{userName}}</text>
+            <image src="{{info}}" style="width:20px; height:18px;" class="account_pic2"></image>
+        </view>
+        <view class="account_totle">
+            <text class="account_totleM">资产总额（元）\n</text>
+            <text>{{accountTotle}}</text>
+        </view>
+        <view class="account_income">
+            <view class="account_remainL">
+                <text>{{profit}}\n</text>
+                <text class="accountfont">已获收益（元）</text>
+            </view>
+            <view class="account_remainR">
+                <text>{{profiting}}\n</text>
+                <text class="accountfont">待收收益（元）</text>
+            </view>
+        </view>
+        <view class="account_remain">
+            <view class="account_remainL">
+                <text class="remainfont">可用余额\n</text>
+                <text class="remainM">{{accountTotle}}元</text>
+            </view>
+            <view class="account_remainR">
+                <button class="topUp" size="mini">充值</button>
+                <button class="accountWithdraw" size="mini">提现</button>
+            </view>
+        </view>
+    </view>
+<!--------------------------账户信息选项----------------------->
+    <view class="account_bottom">
+        <view class="more_content" wx:for="{{accountList}}">
+            <view class="more_top">
+                <image src="{{item.acTopPic}}" style="width:20px; height:18px;" class="more_pic1"></image>
+                <view class="more_words">
+                    <view>{{item.optionTop}}</view>
+                    <image src="{{guideRight}}" style="width:12px; height:14px;" class="more_pic2"></image>
+                </view>
+            </view>
+            <view class="more_bottom">
+                <image src="{{item.acBottomPic}}" style="width:20px; height:18px;" class="more_pic1"></image>
+                <view class="more_words addLine">
+                    <view>{{item.optionBottom}}</view>
+                    <image src="{{guideRight}}" style="width:12px; height:14px;" class="more_pic2"></image>
+                </view>
+            </view>
+        </view>
+        <view class="more_top accountSafe">
+                <image src="{{acTopPic}}" style="width:20px; height:18px;" class="more_pic1"></image>
+                <view class="more_words">
+                    <view>{{optionTop}}</view>
+                    <image src="{{guideRight}}" style="width:12px; height:14px;" class="more_pic2"></image>
+                    <text class="level">{{level}}</text>
+                </view>
+        </view>
+    </view>
+    <button type="warn">退出登录</button>
+</view>

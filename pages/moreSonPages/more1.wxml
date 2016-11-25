@@ -1,0 +1,19 @@
+<view class="moreQuestion">
+    <view class="questionList">
+        <view class="listPart" wx:for="{{list}}">
+            <view>{{item.option}}</view>
+            <image src="{{src}}" style="width:12px; height:14px;"></image>
+        </view>
+    </view>
+    <view class="service">
+        <view>{{test}}</view>
+    </view>
+    <view class="phone">
+        <view class="service_tit">客服热线</view>
+        <image src="{{src}}" style="width:12px; height:14px;"></image>
+        <view class="service_phone">
+            <text class="phone_num">400-999-7956\n</text>
+            <text>服务时间 9：00~17：30</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,165 @@
+/**index.wxss**/
+/**--------------------公告---------------------**/
+page{
+    height:100%;
+}
+.indexBox{
+    height:100%;
+    background:#f8f8f8;
+}
+.notice{
+    height:16px;
+    padding:8px;
+    line-height:16px;
+    margin:0 auto;
+    border-bottom:1px solid #ccc;
+}
+.notice .notice_pic{
+    padding-right:3px;
+    vertical-align: middle; 
+}
+.notice_word{
+    display:inline-block;
+    width:65px;
+    font-size:16px;
+    color:#ec5e3f;
+    vertical-align: middle; 
+}
+.notice_info{
+    width:210px;
+    display:inline-block;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    font-size:16px;
+    vertical-align: middle;   
+}
+/**--------------------首页优质投资---------------------**/
+.index_invest{
+    background:#f8f8f8;
+    padding-top:10px;
+}
+.index_register{
+    background:#fff;
+    height:96px;
+}
+.index_registerLeft{
+    padding-top:30px;
+}
+.index_registerRight{
+    padding-top:10px;
+    padding-right:10px;
+}
+.inPorc{
+    color:#ff961a;
+    font-size:20px;
+    font-weight:bold;
+}
+.inProc_right{
+    font-size:20px;
+    font-weight:bold;
+}
+.index_register{
+    padding-left:14px;
+    display:flex;
+    justify-content:space-around;
+}
+.newuser_register{
+    font-size:12px;
+    font-weight:bold;
+    color:#a8a8a8;
+    vertical-align:middle;
+}
+.newuser_register view{
+    font-size:12px;
+    font-weight:bold;
+    color:#a8a8a8;
+    float:left;
+    margin-top:6px;
+}
+.newuser_register button{
+    margin-left:10px;
+    margin-top:6px;
+    color:#ff961a; 
+    border:1px solid #ff961a;
+    font-size:12px;
+    text-align:center;
+    padding:3px;
+    line-height:7px;
+    float:left;
+}
+.index_investTit{
+    height:32px;
+    padding-left:8px;
+    padding-top:10px;
+}
+.index_investTit image{
+    float:left;
+}
+.index_investTit view{
+    float:left;
+    padding-top:4px;
+    padding-left:6px;
+}
+
+
+.index_list{
+    height:108px;
+    padding:0 8px;
+    background:#fff;
+    margin-bottom:10px;
+}
+.index_listTit{
+    width:100%;
+    height:24px;
+    padding-top:10px;
+    border-bottom:1px solid #ccc;
+}
+
+.indexList_pic1{
+    float:left;
+}
+.indexList_tit1{
+    float:left;
+    font-size:12px;
+    width:150px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.indexList_pay{
+    float:left;
+    margin-left:20px;
+}
+.indexList_paystyle{
+    font-size:12px;
+    color:#f4bc12;
+    float:right;
+}
+.index_listcontent{
+    height:64px;
+    display:flex;
+    -webkit-justify-content:space-around;
+    justify-content:space-around;
+    padding-top:10px;
+}
+.index_listcontent view{
+    text-align:center;
+}
+.income{
+    font-size:32px;
+    color:#ec5e3f;
+}
+.index_project{
+    padding-top:10px;
+}
+.indexFont_bottom{
+    font-size:12px;
+    color:#999;
+}
+.index_font{
+    font-size:20px;
+}
+.indexList_pic2{
+    padding-bottom:5px;
+}

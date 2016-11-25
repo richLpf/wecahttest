@@ -1,0 +1,50 @@
+.moreQuestion{
+    margin-top:10px;
+    border-top:1px solid #ccc;
+    font-family:"微软雅黑";
+}
+.questionList{
+    padding-left:8px;
+}
+.listPart{
+    border-bottom:1px solid #ccc;
+    padding-top:15px;
+    padding-bottom:36px;
+    font-size:14px;
+}
+.listPart view{
+    float:left;
+}
+.listPart image{
+    float:right;
+    padding-right:5px;
+}
+.service{
+    border-bottom:1px solid #ccc;
+    padding-top:15px;
+    padding-bottom:18px;
+    font-size:14px;
+    padding-left:8px;
+    color:#ccc;
+}
+.service_tit{
+    float:left;
+    font-size:14px;
+    padding-left:8px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.service_phone{
+    float:right;
+}
+.service_phone text{
+    font-size:14px;
+    color:#ccc;
+}
+.phone image{
+    float:right;
+    padding:15px 5px 15px 5px;
+}
+.phone_num{
+    padding-left:62px;
+}
