@@ -27,7 +27,7 @@ Page({
      userName:"lpf123",
      people:"../imgs/people.png",
      info:"../imgs/info.png",
-     accountTotle:'88888.00',
+     accountTotle:'8888.00',
      profit:'0.00',
      profiting:'0.00'
   },
